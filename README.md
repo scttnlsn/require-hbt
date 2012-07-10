@@ -26,3 +26,12 @@ Config
             extension: 'handlebars'
         }
     });
+
+Tests
+-----
+
+    cd test
+    npm install
+    node server.js
+
+Visit `localhost:3000` to view test output.
