@@ -1,0 +1,9 @@
+{
+    "name": "hbt-tests",
+    "version": "0.0.0",
+    "devDependencies": {
+        "chai": ">= 1.1.1",
+        "connect": ">= 1.9.2",
+        "mocha": ">= 1.3.0"
+    }
+}
