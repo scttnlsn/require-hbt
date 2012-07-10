@@ -1,6 +1,6 @@
 {
     "name": "hbt",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "An AMD loader plugin for Handlebars templates",
     "keywords": ["handlebars", "template"],
 
