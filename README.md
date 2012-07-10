@@ -18,4 +18,11 @@ Then we can compile it like so:
 
     });
 
-That's all for now.
+Config
+------
+
+    require.config({
+        hbt: {
+            extension: 'handlebars'
+        }
+    });

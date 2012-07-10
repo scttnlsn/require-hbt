@@ -4,7 +4,11 @@ define(function(require) {
 
     return {
         load: function(name, require, callback, config) {
-            require(['text!' + name + '.handlebars'], function(content) {
+            config || (config = {});
+            config.hbt || (config.hbt = {});
+            config.hbt.extension || (config.hbt.extension = 'handlebars');
+
+            require(['text!' + name + '.' + config.hbt.extension], function(content) {
                 var template = Handlebars.compile(content);
                 callback(template);
             });
