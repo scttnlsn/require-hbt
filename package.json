@@ -31,6 +31,7 @@
     "main": "hbt.js",
 
     "dependencies": {
-       "handlebars": ">= 1.0.0-beta.6.jam.1"
+       "handlebars": ">= 1.0.0-beta.6.jam.1",
+       "text": ">= 2.0.0-jam.1"
     }
 }
